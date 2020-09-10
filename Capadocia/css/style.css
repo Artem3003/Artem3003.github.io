@@ -473,7 +473,7 @@ ul{
     margin: 0 7px;
 }
 
-@media  (max-width: 1240px){
+/* @media  (max-width: 1240px){
     .header__title {
         padding-top: 120px;
         font-size: 180px;
@@ -799,4 +799,4 @@ ul{
     .footer__text{
         font-size: 40px;
     }
-}
+} */
