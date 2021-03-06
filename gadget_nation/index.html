@@ -1,407 +1,263 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Gadget Nation </title>
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
+---
+layout: default
+title: Gadget Nation
+---
 
-    <header class="header" id="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="logo">
-                    <a class="logo__link" href="#header">
-                        <img src="images/logo.png" alt="">
-                    </a>
-                </div>
-                <nav class="menu">
-                    <button class="menu__btn">
-                        <span class="menu__btn-line"></span>
-                    </button>
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a class="menu__link" href="#top">Home</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#new">New</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#products">Products</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#">About</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#search">Search</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header__box">
-                    <div class="header__sign-up">
-                        <button class="header__btn">Sign Up</button>
-                    </div>
-                    <div class="header__cabinet">
-                        <p class="header__cabinet-cach">
-                            USD<span>876.67</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section class="signup">
-        <div class="container">
-            <div class="signup__content">
-                <h1 class="signup__title title">Sign Up</h1>
-                <form class="signup__form" action="/">
-                    <div class="signup__form-group">
-                        <input class="signup__control" type="email" placeholder="Enter e-mail">
-                        <span class="signup__line"></span>
-                    </div>
-                    <div class="signup__form-group">
-                        <input class="signup__control" type="password" placeholder="Enter password">
-                        <span class="signup__line"></span>
-                    </div>
-                    <button class="signup__btn">SIGN UP</button>
-                    <p class="signup__have-account">
-                        Already have an account?
-                        <span><a class="signup__link" href="#">Sign In</a></span>
+<section class="top" id="top">
+    <div class="container">
+        <div class="top__inner">
+            <div class="top__box">
+                <h1 class="top__title title">
+                    ROG Strix Impact II Wireless
+                </h1>
+                <p class="top__text">
+                    ROG Strix Impact II wireless gaming mouse featuring 16,000 dpi optical sensor, 2.4GHz wireless connectivity, lightweight design, exclusive push-fit switch socket design, pivoted buttons and Aura Sync RGB lighting.
+                </p>
+                <div class="top__about">
+                    <p class="top__cost">
+                        USD 89.99
                     </p>
-                </form>
-            </div>
-        </div>
-    </section>
-    
-    <section class="top" id="top">
-        <div class="container">
-            <div class="top__inner">
-                <div class="top__box">
-                    <h1 class="top__title title">
-                        ROG Strix Impact II Wireless
-                    </h1>
-                    <p class="top__text">
-                        ROG Strix Impact II wireless gaming mouse featuring 16,000 dpi optical sensor, 2.4GHz wireless connectivity, lightweight design, exclusive push-fit switch socket design, pivoted buttons and Aura Sync RGB lighting.
+                    <p class="top__free">
+                        Free delivery up to July, 15
                     </p>
-                    <div class="top__about">
-                        <p class="top__cost">
-                            USD 89.99
-                        </p>
-                        <p class="top__free">
-                            Free delivery up to July, 15
-                        </p>
-                    </div>
-                    <div class="top__buttons">
-                        <button class="top__btn top__btn-1">ADD TO CART</button>
-                        <div class="top__btn top__btn-2">
-                            <a href="#">WATCH MORE</a>
-                        </div>
-                    </div>
                 </div>
-                <div class="top__counter"></div>
-                <div class="top__slider">
-                    <img class="top__slider-img" src="images/mouse-slider.png" alt="">
-                    <img class="top__slider-img" src="images/mouse-slider.png" alt="">
-                    <img class="top__slider-img" src="images/mouse-slider.png" alt="">
-                    <img class="top__slider-img" src="images/mouse-slider.png" alt="">
-                    <img class="top__slider-img" src="images/mouse-slider.png" alt="">
+                <div class="top__buttons">
+                    <button class="top__btn top__btn-1">ADD TO CART</button>
+                    <div class="top__btn top__btn-2">
+                        <a href="#">WATCH MORE</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <section class="new" id="new">
-        <div class="container">
-            <div class="new__inner">
-                <h3 class="new__title title">
-                    New 
-                    <span>New products per last week</span>
-                </h3>
-                <div class="new__slider">
-                    <div class="new__item">
-                        <h5 class="new__item-title">GB38 INTEL INTRO </h5>
-                        <img class="new__img" src="images/GB38-INTEL-INTRO.png" alt="">
-                        <div class="new__item-bottom">
-                            <p class="new__price">USD 799.25</p>
-                            <a class="new__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="new__item">
-                        <h5 class="new__item-title">T-DAGGER Lieutenant T-TGM301</h5>
-                        <img class="new__img" src="images/T-DAGGER-Lieutenant-T-TGM301.png" alt="">
-                        <div class="new__item-bottom">
-                            <p class="new__price">USD 103.99</p>
-                            <a class="new__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="new__item">
-                        <h5 class="new__item-title">Level 20 RGB Cherry MX Blue</h5>
-                        <img class="new__img" src="images/Level-20-RGB-Cherry-MX-Blue.png" alt="">
-                        <div class="new__item-bottom">
-                            <p class="new__price">USD 150.96</p>
-                            <a class="new__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="new__item">
-                        <h5 class="new__item-title">G40 One Hand Wired 35 Keys</h5>
-                        <img class="new__img" src="images/g40-one-hand-wired-35-keys.png" alt="">
-                        <div class="new__item-bottom">
-                            <p class="new__price">USD 20.00</p>
-                            <a class="new__link" href="">add to cart</a>
-                        </div>
-                    </div>
-    
-                    <div class="new__item">
-                        <h5 class="new__item-title">GB38 INTEL INTRO </h5>
-                        <img class="new__img" src="images/GB38-INTEL-INTRO.png" alt="">
-                        <div class="new__item-bottom">
-                            <p class="new__price">USD 799.25</p>
-                            <a class="new__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="new__item">
-                        <h5 class="new__item-title">T-DAGGER Lieutenant T-TGM301</h5>
-                        <img class="new__img" src="images/T-DAGGER-Lieutenant-T-TGM301.png" alt="">
-                        <div class="new__item-bottom">
-                            <p class="new__price">USD 103.99</p>
-                            <a class="new__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="new__item">
-                        <h5 class="new__item-title">Level 20 RGB Cherry MX Blue</h5>
-                        <img class="new__img" src="images/Level-20-RGB-Cherry-MX-Blue.png" alt="">
-                        <div class="new__item-bottom">
-                            <p class="new__price">USD 150.96</p>
-                            <a class="new__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="new__item">
-                        <h5 class="new__item-title">G40 One Hand Wired 35 Keys</h5>
-                        <img class="new__img" src="images/g40-one-hand-wired-35-keys.png" alt="">
-                        <div class="new__item-bottom">
-                            <p class="new__price">USD 20.00</p>
-                            <a class="new__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                </div>
-                <button class="new__btn">All</button>
+            <div class="top__counter"></div>
+            <div class="top__slider">
+                <img class="top__slider-img" src="images/mouse-slider.png" alt="">
+                <img class="top__slider-img" src="images/mouse-slider.png" alt="">
+                <img class="top__slider-img" src="images/mouse-slider.png" alt="">
+                <img class="top__slider-img" src="images/mouse-slider.png" alt="">
+                <img class="top__slider-img" src="images/mouse-slider.png" alt="">
             </div>
         </div>
-    </section> 
-    
-    <section class="products" id="products">
-        <div class="container">
-            <div class="products__inner">
-                <h2 class="products__title title">
-                    Products
-                    <span>All the best brand products for gamers</span>
-                </h2>
-                <div class="products__slider">
-                    <div class="products__item">
-                        <h5 class="products__item-title">RIVAL 600 RGB OPTICAL</h5>
-                        <img class="products__img" src="images/RIVAL-600-RGB-OPTICAL.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 56.25</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">G703 LIGHTSPEED WIRELESS</h5>
-                        <img class="products__img" src="images/G703-LIGHTSPEED-WIRELESS.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 99.99</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">Corsair Ironclaw RGB Wireless</h5>
-                        <img class="products__img" src="images/Corsair-Ironclaw-RGB-Wireless.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 38.16</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">SULACO GM-4 RGB</h5>
-                        <img class="products__img" src="images/SULACO-GM-4-RGB.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 79.99</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">T-DAGGER Captain T-TGM302</h5>
-                        <img class="products__img" src="images/T-DAGGER-Captain-T-TGM302.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 96.99</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">T-DAGGER Lieutenant T-TGM301</h5>
-                        <img class="products__img" src="images/T-DAGGER-Lieutenant-T-TGM301.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 103.99</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">G502 HERO WIRELESS</h5>
-                        <img class="products__img" src="images/G502-HERO-WIRELESS.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 199.96</p>
-                            <a class="products__link" href="gaming-mouse01.html">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">Razer Naga Trinity</h5>
-                        <img class="products__img" src="images/Razer-Naga-Trinity.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 299.00</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-    
-                    <div class="products__item">
-                        <h5 class="products__item-title">RIVAL 600 RGB OPTICAL</h5>
-                        <img class="products__img" src="images/RIVAL-600-RGB-OPTICAL.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 56.25</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">G703 LIGHTSPEED WIRELESS</h5>
-                        <img class="products__img" src="images/G703-LIGHTSPEED-WIRELESS.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 99.99</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">Corsair Ironclaw RGB Wireless</h5>
-                        <img class="products__img" src="images/Corsair-Ironclaw-RGB-Wireless.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 38.16</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">SULACO GM-4 RGB</h5>
-                        <img class="products__img" src="images/SULACO-GM-4-RGB.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 79.99</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">T-DAGGER Captain T-TGM302</h5>
-                        <img class="products__img" src="images/T-DAGGER-Captain-T-TGM302.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 96.99</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">T-DAGGER Lieutenant T-TGM301</h5>
-                        <img class="products__img" src="images/T-DAGGER-Lieutenant-T-TGM301.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 103.99</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">G502 HERO WIRELESS</h5>
-                        <img class="products__img" src="images/G502-HERO-WIRELESS.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 199.96</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                    <div class="products__item">
-                        <h5 class="products__item-title">Razer Naga Trinity</h5>
-                        <img class="products__img" src="images/Razer-Naga-Trinity.png" alt="">
-                        <div class="products__item-bottom">
-                            <p class="products__price">USD 299.00</p>
-                            <a class="products__link" href="">add to cart</a>
-                        </div>
-                    </div>
-                </div>
-                <button class="products__btn">Gaming mouse</button>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <footer class="footer" id="search">
-        <div class="container">
-            <div class="footer__inner">
-                <div class="footer__top">
-                    <h2 class="footer__title title">
-                        Find out about discounts first
-                        <span>Subscribe to the newsletter and receive useful information</span>
-                    </h2>
-                    <form class="footer__form" action="">
-                        <input class="footer__input" type="text">
-                        <button class="footer__btn">Subscribe</button>
-                    </form>
-                </div>
-                <div class="footer__bottom">
-                    <div class="logo">
-                        <a class="logo__link" href="#header">
-                            <img src="images/logo.png" alt="">
-                        </a>
+<section class="new" id="new">
+    <div class="container">
+        <div class="new__inner">
+            <h3 class="new__title title">
+                New 
+                <span>New products per last week</span>
+            </h3>
+            <div class="new__slider">
+                <div class="new__item">
+                    <h5 class="new__item-title">GB38 INTEL INTRO </h5>
+                    <img class="new__img" src="images/GB38-INTEL-INTRO.png" alt="">
+                    <div class="new__item-bottom">
+                        <p class="new__price">USD 799.25</p>
+                        <a class="new__link" href="">add to cart</a>
                     </div>
-                    <nav class="menu menu__footer">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a class="menu__link" href="#">Home</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#">New</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#">Products</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#">About</a>
-                            </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="#">Search</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav class="social">
-                        <ul class="social__list">
-                            <li class="social__item">
-                                <a class="social__link" href="#">
-                                    <img src="images/instagram.svg" alt="">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a class="social__link" href="#">
-                                    <img src="images/twitter.svg" alt="">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a class="social__link" href="#">
-                                    <img src="images/facebook.svg" alt="">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a class="social__link" href="#">
-                                    <img src="images/youtube.svg" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                </div>
+                <div class="new__item">
+                    <h5 class="new__item-title">T-DAGGER Lieutenant T-TGM301</h5>
+                    <img class="new__img" src="images/T-DAGGER-Lieutenant-T-TGM301.png" alt="">
+                    <div class="new__item-bottom">
+                        <p class="new__price">USD 103.99</p>
+                        <a class="new__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="new__item">
+                    <h5 class="new__item-title">Level 20 RGB Cherry MX Blue</h5>
+                    <img class="new__img" src="images/Level-20-RGB-Cherry-MX-Blue.png" alt="">
+                    <div class="new__item-bottom">
+                        <p class="new__price">USD 150.96</p>
+                        <a class="new__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="new__item">
+                    <h5 class="new__item-title">G40 One Hand Wired 35 Keys</h5>
+                    <img class="new__img" src="images/g40-one-hand-wired-35-keys.png" alt="">
+                    <div class="new__item-bottom">
+                        <p class="new__price">USD 20.00</p>
+                        <a class="new__link" href="">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="new__item">
+                    <h5 class="new__item-title">GB38 INTEL INTRO </h5>
+                    <img class="new__img" src="images/GB38-INTEL-INTRO.png" alt="">
+                    <div class="new__item-bottom">
+                        <p class="new__price">USD 799.25</p>
+                        <a class="new__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="new__item">
+                    <h5 class="new__item-title">T-DAGGER Lieutenant T-TGM301</h5>
+                    <img class="new__img" src="images/T-DAGGER-Lieutenant-T-TGM301.png" alt="">
+                    <div class="new__item-bottom">
+                        <p class="new__price">USD 103.99</p>
+                        <a class="new__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="new__item">
+                    <h5 class="new__item-title">Level 20 RGB Cherry MX Blue</h5>
+                    <img class="new__img" src="images/Level-20-RGB-Cherry-MX-Blue.png" alt="">
+                    <div class="new__item-bottom">
+                        <p class="new__price">USD 150.96</p>
+                        <a class="new__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="new__item">
+                    <h5 class="new__item-title">G40 One Hand Wired 35 Keys</h5>
+                    <img class="new__img" src="images/g40-one-hand-wired-35-keys.png" alt="">
+                    <div class="new__item-bottom">
+                        <p class="new__price">USD 20.00</p>
+                        <a class="new__link" href="">add to cart</a>
+                    </div>
                 </div>
             </div>
+            <button class="new__btn">All</button>
         </div>
-    </footer>
+    </div>
+</section> 
 
-    <script src="js/main.min.js"></script>
-</body>
-</html>
+<section class="products" id="products">
+    <div class="container">
+        <div class="products__inner">
+            <h2 class="products__title title">
+                Products
+                <span>All the best brand products for gamers</span>
+            </h2>
+            <div class="products__slider">
+                <div class="products__item">
+                    <h5 class="products__item-title">RIVAL 600 RGB OPTICAL</h5>
+                    <img class="products__img" src="images/RIVAL-600-RGB-OPTICAL.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 56.25</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">G703 LIGHTSPEED WIRELESS</h5>
+                    <img class="products__img" src="images/G703-LIGHTSPEED-WIRELESS.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 99.99</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">Corsair Ironclaw RGB Wireless</h5>
+                    <img class="products__img" src="images/Corsair-Ironclaw-RGB-Wireless.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 38.16</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">SULACO GM-4 RGB</h5>
+                    <img class="products__img" src="images/SULACO-GM-4-RGB.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 79.99</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">T-DAGGER Captain T-TGM302</h5>
+                    <img class="products__img" src="images/T-DAGGER-Captain-T-TGM302.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 96.99</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">T-DAGGER Lieutenant T-TGM301</h5>
+                    <img class="products__img" src="images/T-DAGGER-Lieutenant-T-TGM301.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 103.99</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">G502 HERO WIRELESS</h5>
+                    <img class="products__img" src="images/G502-HERO-WIRELESS.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 199.96</p>
+                        <a class="products__link" href="gaming-mouse01.html">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">Razer Naga Trinity</h5>
+                    <img class="products__img" src="images/Razer-Naga-Trinity.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 299.00</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="products__item">
+                    <h5 class="products__item-title">RIVAL 600 RGB OPTICAL</h5>
+                    <img class="products__img" src="images/RIVAL-600-RGB-OPTICAL.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 56.25</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">G703 LIGHTSPEED WIRELESS</h5>
+                    <img class="products__img" src="images/G703-LIGHTSPEED-WIRELESS.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 99.99</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">Corsair Ironclaw RGB Wireless</h5>
+                    <img class="products__img" src="images/Corsair-Ironclaw-RGB-Wireless.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 38.16</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">SULACO GM-4 RGB</h5>
+                    <img class="products__img" src="images/SULACO-GM-4-RGB.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 79.99</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">T-DAGGER Captain T-TGM302</h5>
+                    <img class="products__img" src="images/T-DAGGER-Captain-T-TGM302.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 96.99</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">T-DAGGER Lieutenant T-TGM301</h5>
+                    <img class="products__img" src="images/T-DAGGER-Lieutenant-T-TGM301.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 103.99</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">G502 HERO WIRELESS</h5>
+                    <img class="products__img" src="images/G502-HERO-WIRELESS.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 199.96</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+                <div class="products__item">
+                    <h5 class="products__item-title">Razer Naga Trinity</h5>
+                    <img class="products__img" src="images/Razer-Naga-Trinity.png" alt="">
+                    <div class="products__item-bottom">
+                        <p class="products__price">USD 299.00</p>
+                        <a class="products__link" href="">add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <button class="products__btn">Gaming mouse</button>
+        </div>
+    </div>
+</section>
