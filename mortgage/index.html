@@ -16,6 +16,9 @@
                     </a>
                 </div>
                 <nav class="menu">
+                    <button class="menu__btn">
+                        <span class="menu__btn-line"></span>
+                    </button>
                     <ul class="menu__list">
                         <li class="menu__item active">
                             <a class="menu__link" href="#">Услуги</a>
@@ -55,6 +58,26 @@
         </div>
     </header>
     <main class="main">
+        <section class="request">
+            <div class="container">
+                <form class="request__form">
+                    <h4 class="request__form-title">Оставьте заявку и мы с вами свяжемся:)</h4>
+                    <div class="request__form-line">
+                        <div class="request__form-input form__input-name request__input-name">
+                            <input placeholder="Ваше имя" type="text">
+                        </div>
+                        <div class="request__form-input form__input-phone request__input-phone">
+                            <input placeholder="Телефон" type="number">
+                        </div>
+                        <div class="request__form-input form__input-mail  request__input-mail">
+                            <input placeholder="Электронная почта" type="text">
+                        </div>
+                    </div>
+                    <div class="request__form-btn">
+                    <button type="submit">Отправить заявку</button></div>
+                </form>
+            </div>
+        </section>
         <section class="services">
             <div class="container">
                 <div class="services__inner">
@@ -401,7 +424,7 @@
                 </div>
             </div>
         </section>
-        <section class="needs">
+        <<section class="needs">
             <div class="container">
                 <h3 class="needs__title title">Что нужно делать?</h3>
                 <div class="needs__inner">
