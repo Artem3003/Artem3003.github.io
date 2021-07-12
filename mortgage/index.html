@@ -20,14 +20,14 @@
                         <span class="menu__btn-line"></span>
                     </button>
                     <ul class="menu__list">
-                        <li class="menu__item active">
-                            <a class="menu__link" href="#">Услуги</a>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#services">Услуги</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#">О компании</a>
+                            <a class="menu__link" href="#choice">О компании</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Контакты</a>
+                            <a class="menu__link" href="#footer">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -39,7 +39,7 @@
                     Гарантированная помощь в получении ипотеки
                     даже с плохой кредитной историей
                 </div>
-                <button class="header__btn" type="button">Оставить заявку</button>
+                <button class="header__btn request__btn" type="button">Оставить заявку</button>
                 <ul class="header__list">
                     <li class="header__item animate__animated wow animate__flipInX" data-wow-delay="1.4s">
                         <div class="header__item-title">Ставка от</div>
@@ -78,7 +78,7 @@
                 </form>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <div class="services__inner animate__animated wow animate__fadeInLeft" data-wow-offset="400">
                     <ul class="services__list">
@@ -105,7 +105,7 @@
                                         <div class="services__item-text">Выгода до 500 тыс. рублей при оформлении по нашей партнерской программе</div>
                                     </li>
                                 </ul>
-                                <button class="services__btn" type="button">Подробнее</button>
+                                <button class="services__btn request__btn" type="button">Подробнее</button>
                             </div>
                             <div class="services__img">
                                 <img src="images/card-1.jpg" alt="">
@@ -127,7 +127,7 @@
                                         <div class="services__item-title">Цены как у застройщика</div>
                                     </li>
                                 </ul>
-                                <button class="services__btn" type="button">Подробнее</button>
+                                <button class="services__btn request__btn" type="button">Подробнее</button>
                             </div>
                             <div class="services__img">
                                 <img src="images/card-2.jpg" alt="">
@@ -155,7 +155,7 @@
                                         <div class="services__item-text">Оформим страховку при приобритенияя любого вида недвижимости</div>
                                     </li>
                                 </ul>
-                                <button class="services__btn" type="button">Подробнее</button>
+                                <button class="services__btn request__btn type="button">Подробнее</button>
                             </div>
                             <div class="services__img">
                                 <img src="images/card-3.jpg" alt="">
@@ -179,7 +179,7 @@
                                         <div class="services__item-text">Отчет об оценке передоставляется в бумажном и электронном виде и сразу передается в банк</div>
                                     </li>
                                 </ul>
-                                <button class="services__btn" type="button">Подробнее</button>
+                                <button class="services__btn request__btn" type="button">Подробнее</button>
                             </div>
                             <div class="services__img">
                                 <img src="images/card-4.jpg" alt="">
@@ -265,7 +265,7 @@
                                     нет прописки
                                 </li>
                             </ul>
-                            <a class="difficulties__btn" href="">Узнать как</a>
+                            <button class="difficulties__btn request__btn">Узнать как</button>
                         </div>
                     </div>
                     <div class="difficulties__text animate__animated wow animate__flash">
@@ -275,7 +275,7 @@
                 </div>
             </div>
         </section>
-        <section class="choice">
+        <section class="choice" id="choice">
             <div class="container">
                 <div class="choice__inner">
                     <h3 class="choice__title title animate__animated wow animate__backInLeft">Почему выбирают нас?</h3>
@@ -475,12 +475,12 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__social">
                     <div class="logo">
-                        <a class="logo__link" href="">
+                        <a class="logo__link" href="#">
                             <img class="logo__img" src="images/logo.png" alt="">
                         </a>
                     </div>
@@ -515,7 +515,7 @@
                     <div class="footer__item">
                         <h5 class="footer__item-title">О компании</h5>
                         <ul class="footer__item-list">
-                            <li class="footer__item-item"><a class="footer__item-link" href="">О нас</a></li>
+                            <li class="footer__item-item"><a class="footer__item-link" href="#choice">О нас</a></li>
                             <li class="footer__item-item"><a class="footer__item-link" href="">Отзывы</a></li>
                             <li class="footer__item-item"><a class="footer__item-link" href="">Наша команда</a></li>
                         </ul>
@@ -523,10 +523,10 @@
                     <div class="footer__item">
                         <h5 class="footer__item-title">Услуги</h5>
                         <ul class="footer__item-list">
-                            <li class="footer__item-item"><a class="footer__item-link" href="">Ипотека</a></li>
-                            <li class="footer__item-item"><a class="footer__item-link" href="">Подбор квартиры</a></li>
-                            <li class="footer__item-item"><a class="footer__item-link" href="">Страхование</a></li>
-                            <li class="footer__item-item"><a class="footer__item-link" href="">Оценка</a></li>
+                            <li class="footer__item-item"><a class="footer__item-link" href="#services">Ипотека</a></li>
+                            <li class="footer__item-item"><a class="footer__item-link" href="#services">Подбор квартиры</a></li>
+                            <li class="footer__item-item"><a class="footer__item-link" href="#services">Страхование</a></li>
+                            <li class="footer__item-item"><a class="footer__item-link" href="#services">Оценка</a></li>
                         </ul>
                     </div>
                 </div>
