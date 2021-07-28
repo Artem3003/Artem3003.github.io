@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    
-    <header class="header header__gradient" id="header">
+
+    <header class="header">
         <div class="container">
-            <div class="header__top">
+            <div class="header__inner">
                 <div class="logo">
-                    <a class="logo__link" href="#header">
+                    <a class="logo__link" href="#top">
                         <img class="logo__img" src="images/logo.png">
                     </a>
                 </div>
@@ -22,7 +22,7 @@
                     </button>
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Каталог</a>
+                            <a class="menu__link" href="#catalog">Каталог</a>
                         </li>
                         <li class="menu__item">
                             <a class="menu__link" href="deliviry.html">Доставка и оплата</a>
@@ -38,12 +38,15 @@
                 </div>
             </div>
         </div>
-        <div class="header__content" style="background-image: url('images/header-bg.png');">
-            <h1 class="header__title">Всегда самые свежие яйца </h1>
-            <p class="header__subtitle">Быстрая доставка по России</p>
-            <a class="header__btn" href="#catalog">Смотреть католог</a>
-        </div>
     </header>
+
+    <section class="top" id="top">
+        <div class="top__inner" style="background-image: url('images/header-bg.png');">
+            <h1 class="top__title">Всегда самые свежие яйца </h1>
+            <p class="top__subtitle">Быстрая доставка по России</p>
+            <a class="top__btn" href="#catalog">Смотреть католог</a>
+        </div>
+    </section>
 
     <section class="partners">
         <div class="container">
@@ -105,7 +108,7 @@
                 <div class="advantages__img">
                     <img src="images/advantages.png" alt="">
                 </div>
-                
+
                 <ul class="advantages__list advantages__list--right">
                     <li class="advantages__item">
                         <h5 class="advantages__item-title">Всегда свежие</h5>
@@ -128,8 +131,8 @@
         <div class="container">
             <h3 class="catalog__title title">Наш каталог</h3>
             <div class="catalog__inner">
-                <ul class="catalog__list">
-                    <li class="catalog__item">
+                <div class="catalog__list">
+                    <div class="catalog__item">
                         <h5 class="catalog__item-title">Яйцо Насечка</h5>
                         <div class="catalog__images">
                             <img class="catalog__product" src="images/nasechka.jpg" alt="">
@@ -145,9 +148,9 @@
                             </div>
                             <a class="catalog__link-arrow" href="#"></a>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="catalog__item">
+                    <div class="catalog__item">
                         <h5 class="catalog__item-title">Перепелиное</h5>
                         <div class="catalog__images">
                             <img class="catalog__product" src="images/perepel.jpg" alt="">
@@ -163,9 +166,9 @@
                             </div>
                             <a class="catalog__link-arrow" href="#"></a>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="catalog__item">
+                    <div class="catalog__item">
                         <h5 class="catalog__item-title">Кукареку</h5>
                         <div class="catalog__images">
                             <img class="catalog__product" src="images/kykareky.jpg" alt="">
@@ -181,9 +184,9 @@
                             </div>
                             <a class="catalog__link-arrow" href="#"></a>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="catalog__item">
+                    <div class="catalog__item">
                         <h5 class="catalog__item-title">Окское</h5>
                         <div class="catalog__images">
                             <img class="catalog__product" src="images/oscoe.jpg" alt="">
@@ -199,9 +202,9 @@
                             </div>
                             <a class="catalog__link-arrow" href="#"></a>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="catalog__item">
+                    <div class="catalog__item">
                         <h5 class="catalog__item-title">Дивеево</h5>
                         <div class="catalog__images">
                             <img class="catalog__product" src="images/deveevo.jpg" alt="">
@@ -217,9 +220,9 @@
                             </div>
                             <a class="catalog__link-arrow" href="#"></a>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="catalog__item">
+                    <div class="catalog__item">
                         <h5 class="catalog__item-title">Кинешемское</h5>
                         <div class="catalog__images">
                             <img class="catalog__product" src="images/kineshem.jpg" alt="">
@@ -235,9 +238,9 @@
                             </div>
                             <a class="catalog__link-arrow" href="#"></a>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="catalog__item">
+                    <div class="catalog__item">
                         <h5 class="catalog__item-title">Ак Барс</h5>
                         <div class="catalog__images">
                             <img class="catalog__product" src="images/ak-bars.jpg" alt="">
@@ -253,9 +256,9 @@
                             </div>
                             <a class="catalog__link-arrow" href="#"></a>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="catalog__item">
+                    <div class="catalog__item">
                         <h5 class="catalog__item-title">Недюревка</h5>
                         <div class="catalog__images">
                             <img class="catalog__product" src="images/nedurevka.jpg" alt="">
@@ -271,10 +274,61 @@
                             </div>
                             <a class="catalog__link-arrow" href="product.html"></a>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                    <div class="catalog__item">
+                        <h5 class="catalog__item-title">Недюревка</h5>
+                        <div class="catalog__images">
+                            <img class="catalog__product" src="images/nedurevka.jpg" alt="">
+                            <p class="catalog__price">
+                                70 руб.
+                                <span class="catalog__amount">10шт</span>
+                            </p>
+                        </div>
+                        <div class="catalog__item-bottom">
+                            <div class="catalog__text">
+                                <p>30 шт в упаковке </p>
+                                <p>36 десятков в коробке</p>
+                            </div>
+                            <a class="catalog__link-arrow" href="product.html"></a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <h5 class="catalog__item-title">Недюревка</h5>
+                        <div class="catalog__images">
+                            <img class="catalog__product" src="images/nedurevka.jpg" alt="">
+                            <p class="catalog__price">
+                                70 руб.
+                                <span class="catalog__amount">10шт</span>
+                            </p>
+                        </div>
+                        <div class="catalog__item-bottom">
+                            <div class="catalog__text">
+                                <p>30 шт в упаковке </p>
+                                <p>36 десятков в коробке</p>
+                            </div>
+                            <a class="catalog__link-arrow" href="product.html"></a>
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <h5 class="catalog__item-title">Недюревка</h5>
+                        <div class="catalog__images">
+                            <img class="catalog__product" src="images/nedurevka.jpg" alt="">
+                            <p class="catalog__price">
+                                70 руб.
+                                <span class="catalog__amount">10шт</span>
+                            </p>
+                        </div>
+                        <div class="catalog__item-bottom">
+                            <div class="catalog__text">
+                                <p>30 шт в упаковке </p>
+                                <p>36 десятков в коробке</p>
+                            </div>
+                            <a class="catalog__link-arrow" href="product.html"></a>
+                        </div>
+                    </div>
+                </div>
                 <div class="catalog__btn">
-                    <a href="#">Показать ещё</a>
+                    <a href="#" id="loadMore">Показать ещё</a>
                 </div>
             </div>
         </div>
@@ -284,7 +338,7 @@
         <div class="container">
             <div class="footer__top">
                 <div class="logo">
-                    <a class="logo__link" href="#">
+                    <a class="logo__link" href="#top">
                         <img class="logo__img" src="images/logo.png">
                     </a>
                 </div>
@@ -302,7 +356,7 @@
                 </ul>
                 <div class="footer__questions">
                     <h6 class="footer__questions-title">
-                        Есть вопросы? 
+                        Есть вопросы?
                         Напишите нам!
                     </h6>
                     <a class="footer__btn" href="#">Написать сейчас</a>
